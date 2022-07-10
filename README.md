@@ -5,6 +5,14 @@ In this repository, Tensorflow + Keras are used for Image Classfication.
 
 -------------
 
+### Installing packages
+
+Use below command to install required packages.
+
+```bat
+pip install -r requirements.txt
+```
+
 ### Dataset Structure
 
 ----
