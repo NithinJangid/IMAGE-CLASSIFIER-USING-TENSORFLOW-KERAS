@@ -91,7 +91,6 @@ tensorboard --logdir logs/fit/
 ```
 
 
-----
 
 ### Licence
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
