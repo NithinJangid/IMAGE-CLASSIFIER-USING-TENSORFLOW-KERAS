@@ -5,7 +5,7 @@ In this repository, Tensorflow + Keras are used for Image Classfication.
 
 -------------
 
-###Dataset Structure
+### Dataset Structure
 
 ----
 
@@ -43,7 +43,7 @@ Note: If you already have Train and Val Sets there is no need to run the above c
 
 -------------
 
-###Train
+### Train
 
 ----
 
@@ -60,7 +60,7 @@ To finetune the model, you should specify ```--model_finetune_path <path to mode
 
 -------------
 
-###Test
+### Test
 
 ----
 
@@ -68,14 +68,14 @@ To test the model, specify image_path and model_path under <b>test.py</b> script
 
 -------------
 
-###Logs
+### Logs
 
 ----
 
 The training logs are stored under "logs/fit/" directory. use below tensorboard command to review loss and accuracy for each epoch.
 
 ```bat
-tensorboard --logdir logs/
+tensorboard --logdir logs/fit/
 ```
 
 
