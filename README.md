@@ -13,21 +13,21 @@ The data structure for this repo is shown as below...
 ```
 data
 └───dataset  (This is the main folder)
-			└─── Class 1 folder (sub folders...)
-			 |		│   │   Image1.jpg
-			 |		│   │   Image2.jpg
-			 |				 ...
-			└─── Class 2 folder
-			 |		│   │   Image1.jpg
-			 |		│   │   Image2.jpg
-			 |				 ...
-			 .
-			 .
-			 .
-			└─── Class n folder
-			 |		│   │   Image1.jpg
-			 |		│   │   Image2.jpg
-			 |				  ...
+            └─── Class 1 folder (sub folders...)
+             |        │   │   Image1.jpg
+             |        │   │   Image2.jpg
+             |                 ...
+            └─── Class 2 folder
+             |        │   │   Image1.jpg
+             |        │   │   Image2.jpg
+             |                 ...
+             .
+             .
+             .
+            └─── Class n folder
+             |        │   │   Image1.jpg
+             |        │   │   Image2.jpg
+             |                  ...
 ```
 
 If your dataset is in this structure then you can use below command from project path to split data into train and val sets.
