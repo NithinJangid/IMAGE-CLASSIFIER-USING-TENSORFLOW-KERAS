@@ -1,0 +1,6 @@
+# type "pip install -r requriements.txt" to install all required packages
+
+tensorflow-gpu==2.6
+pillow
+tqdm
+opencv-python
