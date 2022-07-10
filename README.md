@@ -68,6 +68,10 @@ To test the model, specify image_path and model_path under <b>test.py</b> script
 
 -------------
 
+```bat
+python test.py
+```
+
 ### Logs
 
 ----
