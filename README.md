@@ -39,7 +39,7 @@ data
         |            ...
 ```
 
-If your dataset is in this structure then you can use below command from project path to split data into train and val sets.
+If your dataset is in this structure then you can use below command in terminal from project path to split data into train and val sets.
 
 ```bat
 python split_train_val.py --data_dir <path to dataset folder> --out_train_dir <out path to train set> --out_val_dir <out path to val set>
