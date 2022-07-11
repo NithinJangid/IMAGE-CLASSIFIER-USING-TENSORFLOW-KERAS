@@ -21,7 +21,7 @@ pip install -r requirements.txt
 The data structure for this repo is shown as below...
 ```
 data
-└───dataset  (This is the main folder)
+└───dataset  (This is the main folder containing multiple classes)
         └─── Class 1 folder (sub folders...)
         |    │   │   Image1.jpg
         |    │   │   Image2.jpg
