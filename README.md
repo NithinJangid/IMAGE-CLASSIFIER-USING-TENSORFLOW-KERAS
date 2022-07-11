@@ -73,7 +73,7 @@ To finetune the model, you should specify ```--model_finetune_path <path to mode
 
 ----
 
-To test the model, specify image_path and model_path under <b>test.py</b> script. The output provides the class name with a score.
+To test the model, specify image_path, class_label and model_path under <b>test.py</b> script. The output provides the class name with a score.
 
 
 ```bat
