@@ -33,7 +33,7 @@ data
         .
         .
         .
-        └─── Class 2 folder
+        └─── Class N folder
         |    │   │   Image1.jpg
         |    │   │   Image2.jpg
         |            ...
