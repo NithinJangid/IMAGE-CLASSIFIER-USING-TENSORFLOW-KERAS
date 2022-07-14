@@ -18,38 +18,38 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 """Read the arguments of the program."""
 arg_parse = argparse.ArgumentParser()
 
-arg_parse.add_argument("-ma", "--model_arch", required=False,
+arg_parse.add_argument("--model_arch", required=False,
                        help="Available options-[Xception, ResNet50, InceptionV3, MobileNet, FineTune]",
                        default="ResNet50", type=str)
 
-arg_parse.add_argument("-fp", "--model_finetune_path", required=False,
+arg_parse.add_argument("--model_finetune_path", required=False,
                        help="Specify model path to finetune the model. eg:'checkpoints/ABC.h5'", default=None, type=str)
 
-arg_parse.add_argument("-tp", "--train_path", required=False,
+arg_parse.add_argument("--train_path", required=False,
                        help="Specify train dir", default='data/training_data/train', type=str)
 
-arg_parse.add_argument("-vp", "--val_path", required=False,
+arg_parse.add_argument("--val_path", required=False,
                        help="Specify val dir", default='data/training_data/val', type=str)
 
-arg_parse.add_argument("-od", "--model_out_dir", required=False,
+arg_parse.add_argument("--model_out_dir", required=False,
                        help="Specify where to save model checkpoints", default='./checkpoints/', type=str)
 
-arg_parse.add_argument("-lr", "--learning_rate", required=False,
+arg_parse.add_argument("--learning_rate", required=False,
                        help="Specify learning rate", default=0.0001, type=float)
 
-arg_parse.add_argument("-bs", "--batch_size", required=False,
+arg_parse.add_argument("--batch_size", required=False,
                        help="Specify Batch Size", default=12, type=int)
 
-arg_parse.add_argument("-ne", "--num_epochs", required=False,
+arg_parse.add_argument("--num_epochs", required=False,
                        help="Specify number of epochs", default=20, type=int)
 
-arg_parse.add_argument("-iw", "--image_width", required=False,
+arg_parse.add_argument("--image_width", required=False,
                        help="Specify Input Image Width", default=256, type=int)
 
-arg_parse.add_argument("-ih", "--image_height", required=False,
+arg_parse.add_argument("--image_height", required=False,
                        help="Specify Input Image height", default=256, type=int)
 
-arg_parse.add_argument("-ntr", "--no_transfer_learning", required=False,
+arg_parse.add_argument("--no_transfer_learning", required=False,
                        help="add this arg. to prevent using transfer learning", action='store_false')
 
 args = arg_parse.parse_args()
