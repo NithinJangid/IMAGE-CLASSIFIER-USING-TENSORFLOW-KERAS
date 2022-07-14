@@ -1,6 +1,4 @@
 import argparse
-import pdb
-from datetime import datetime
 
 import tensorflow as tf
 from tensorflow.keras import optimizers
