@@ -7,7 +7,7 @@ from tqdm import tqdm
 arg_parse = argparse.ArgumentParser()
 
 arg_parse.add_argument("--data_dir", required=True,
-                       help="Specify dataset path containing class folders", default=None, type=str)
+                       help="Specify dataset path containing class folders", default='data/dataset/, type=str)
 
 arg_parse.add_argument("--out_dir", required=False,
                        help="Specify output dir (preprocessed)", default='data/training_data/', type=str)
