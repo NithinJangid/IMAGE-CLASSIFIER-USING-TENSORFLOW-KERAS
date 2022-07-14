@@ -64,7 +64,8 @@ python train.py --train_path <path to train folder> --val_path <out path to val 
 
 There are many more model architectures are available like, ""Xception, ResNet50, InceptionV3, MobileNet, FineTune ""
 
-To finetune the model, you should specify ```--model_finetune_path <path to model>```
+To finetune the model, you should specify ```--model_finetune_path <path to model>```.
+
 <b>train.py</b> also supports my arguments please refer the script for more details.
 
 -------------
