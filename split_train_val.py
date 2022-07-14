@@ -9,17 +9,15 @@ arg_parse = argparse.ArgumentParser()
 arg_parse.add_argument("--data_dir", required=True,
                        help="Specify dataset path containing class folders", default=None, type=str)
 
-arg_parse.add_argument("--out_train_dir", required=False,
-                       help="Specify output train dir", default='data/training_data/train', type=str)
+arg_parse.add_argument("--out_dir", required=False,
+                       help="Specify output dir (preprocessed)", default='data/training_data/', type=str)
 
-arg_parse.add_argument("--out_val_dir", required=False,
-                       help="Specify output val dir", default='data/training_data/val', type=str)
 
 args = arg_parse.parse_args()
 
 data_dir = args.data_dir
-out_train_dir = args.out_train_dir
-out_val_dir = args.out_val_dir
+out_train_dir = os.path.join(args.out_dir, 'train')
+out_val_dir = os.path.join(args.out_dir, 'val')
 
 for folder in os.listdir(data_dir):
     print(f"Processing on folder -> {folder}")
